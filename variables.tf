@@ -51,3 +51,33 @@ variable "internet-gateway-name" {
 variable "public-RT-name" {
   description = "Value for public route table name"
 }
+# EC2
+variable "ami-id" {
+  description = "Value for ami id"
+  type        = string
+}
+
+variable "instance-type" {
+  description = "Value fr instance type"
+  type        = string
+}
+
+variable "key_name" {
+  description = "Value for key name"
+  type        = string
+}
+# SG
+variable "sg-name" {
+  description = "Value for security group name"
+  type        = string
+}
+
+variable "sg-lb-name" {
+  description = "Value for SG LB name"
+  type        = string
+}
+
+variable "sg-rds-name" {
+  description = "Value for SG RDS"
+  type        = string
+}
