@@ -1,3 +1,8 @@
+## Two-Tier AWS Architecture using Terraform
+
+
+This project aims to create a robust highily available web application infrastructure using a two-tier architecture on Amazon Web Services (AWS). The architecture comprises a web tier that handles user requests and a database tier for data storage. I leveraged Terraform for Infrastructure as Code (IaC) to provision and manage AWS resources efficiently.
+
 ## Requirements
 
 | Name | Version |
