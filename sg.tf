@@ -30,11 +30,11 @@ resource "aws_security_group" "secgroup" {
   }
 
   egress {
-    description     = "Rule to allow connections to database from any instances this security group is attached to"
-    from_port       = 3306
-    to_port         = 3306
-    protocol        = "tcp"
-    self            = false
+    description = "Rule to allow connections to database from any instances this security group is attached to"
+    from_port   = 3306
+    to_port     = 3306
+    protocol    = "tcp"
+    self        = false
   }
 
   tags = {

@@ -81,3 +81,29 @@ variable "sg-rds-name" {
   description = "Value for SG RDS"
   type        = string
 }
+#ALB
+variable "lb-name" {
+  description = "Value for lb Name"
+  type        = string
+}
+
+#T.Group
+variable "tg-name" {
+  description = "Value for target group name"
+  type        = string
+}
+#RDS
+variable "db-username" {
+  description = "Value for DB username"
+  type        = string
+}
+
+variable "db-password" {
+  description = "Value for DB password"
+  type        = string
+}
+
+variable "db-subnet" {
+  description = "Value for DB subnet name"
+  type        = string
+}
