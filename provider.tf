@@ -16,6 +16,7 @@ provider "aws" {
       Environment = "Production"
       Owner       = "Rubén López"
       Department  = "Devops"
+      Project     = "3rd"
 
     }
   }
